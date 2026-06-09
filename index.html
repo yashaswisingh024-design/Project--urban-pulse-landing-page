@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urban Pulse | Smart City Solutions</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
@@ -18,6 +21,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#impact">Impact</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -28,26 +32,73 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="home">
-        <div>
-            <h1>Building Smarter Cities Through Data</h1>
+   <section id="home">
 
-            <p>
-                Urban Pulse empowers citizens and city authorities
-                with real-time insights on waste management,
-                infrastructure issues, and urban sustainability.
-            </p>
+    <div class="hero-content">
 
-            <div class="hero-buttons">
-    <a href="#" class="btn">Explore Platform</a>
-    <a href="#" class="btn secondary-btn">Watch Demo</a>
-</div>
+        <span class="hero-tag">
+            🌆 Smart City Innovation Platform
+        </span>
+
+        <h1>
+            Building Smarter, Cleaner & More Sustainable Cities
+        </h1>
+
+        <p>
+            Urban Pulse empowers citizens and local authorities
+            with real-time reporting, data analytics, and
+            actionable insights to solve urban challenges faster.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn">Get Started</a>
+            <a href="#" class="btn secondary-btn">View Demo</a>
         </div>
 
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6AJuEeW-Lvy7e0P1H3v5htm98nCQ2EPwa2g&s" alt="Smart City Illustration">
+        <div class="hero-stats">
+
+            <div>
+                <h3>95%</h3>
+                <p>Issue Resolution Rate</p>
+            </div>
+
+            <div>
+                <h3>24/7</h3>
+                <p>Monitoring</p>
+            </div>
+
+            <div>
+                <h3>1000+</h3>
+                <p>Citizens Connected</p>
+            </div>
+
         </div>
-    </section>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="https://www.iotinsider.com/wp-content/uploads/2024/02/smart-parking.jpg" alt="Dashboard Image">
+    </div>
+
+</section>
+
+</section>   <!-- Hero section ends here -->
+
+<section id="trusted">
+
+    <h3>Trusted by Communities Across India</h3>
+
+    <div class="trusted-logos">
+        <span>Mumbai</span>
+        <span>Pune</span>
+        <span>Nashik</span>
+        <span>Thane</span>
+        <span>Nagpur</span>
+    </div>
+
+</section>
+
+<section id="features">
 
     <!-- Features Section -->
     <section id="features">
@@ -57,7 +108,7 @@
         <div>
 
             <div>
-                <h3>📍 Issue Reporting</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> Issue Reporting</h3>
                 <p>
                     Citizens can report potholes, garbage,
                     broken streetlights, and civic issues instantly.
@@ -65,7 +116,7 @@
             </div>
 
             <div>
-                <h3>📊 Real-Time Analytics</h3>
+                <h3><i class="fas fa-chart-line"></i> Real-Time Analytics</h3>
                 <p>
                     Visual dashboards help authorities monitor
                     urban problems efficiently.
@@ -73,7 +124,7 @@
             </div>
 
             <div>
-                <h3>🌱 Sustainability Tracking</h3>
+                <h3><i class="fas fa-leaf"></i> Sustainability Tracking</h3>
                 <p>
                     Monitor environmental metrics and improve
                     sustainable city planning.
@@ -83,6 +134,43 @@
         </div>
 
     </section>
+
+    <section id="pricing">
+
+    <h2>Pricing Plans</h2>
+
+    <div class="pricing-container">
+
+        <div class="price-card">
+            <h3>Starter</h3>
+            <h1>₹0</h1>
+            <p>Basic Analytics</p>
+            <p>Issue Reporting</p>
+            <p>Community Access</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="price-card featured">
+            <h3>Pro</h3>
+            <h1>₹499</h1>
+            <p>Advanced Analytics</p>
+            <p>Priority Support</p>
+            <p>Smart Reports</p>
+            <a href="#" class="btn">Choose Plan</a>
+        </div>
+
+        <div class="price-card">
+            <h3>Enterprise</h3>
+            <h1>₹999</h1>
+            <p>Unlimited Access</p>
+            <p>Custom Dashboard</p>
+            <p>Dedicated Support</p>
+            <a href="#" class="btn">Contact Sales</a>
+        </div>
+
+    </div>
+
+</section>
 
     <!-- Impact Section -->
     <section id="impact">
@@ -137,6 +225,7 @@
             <textarea placeholder="Your Message"></textarea>
 
             <button type="submit">Send Message</button>
+            <div data-aos="fade-up"></div>
 
         </form>
 
@@ -156,6 +245,9 @@
     </footer>
 
     <script src="script.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
 </html>
