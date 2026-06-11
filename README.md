@@ -99,9 +99,7 @@ Urban-Pulse
 
 ## 📸 Preview
 
-Add screenshots of your landing page here.
-
-```md
+---
 <img width="1530" height="971" alt="image" src="https://github.com/user-attachments/assets/ba52b4fc-f2e9-4ef6-9214-47a283e43186" />
 
 ```
