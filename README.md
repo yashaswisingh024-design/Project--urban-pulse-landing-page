@@ -99,10 +99,10 @@ Urban-Pulse
 
 ## 📸 Preview
 
----
+
 <img width="1530" height="971" alt="image" src="https://github.com/user-attachments/assets/ba52b4fc-f2e9-4ef6-9214-47a283e43186" />
 
-```
+
 
 ---
 
