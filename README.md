@@ -1,4 +1,4 @@
-# urban-pulse-landing-page
+
 <div align="center">
 
 # 🌆 Urban Pulse
